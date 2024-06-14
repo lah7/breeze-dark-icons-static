@@ -18,8 +18,8 @@
     <linearGradient id="e" x1="12.999999" x2="18.999998" y1="20" y2="29" gradientTransform="matrix(.66666677 0 0 .44444444 -1.666667 11.111111)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
     <linearGradient id="f" x1="12.999999" x2="18.999998" y1="20" y2="29" gradientTransform="matrix(.66666677 0 0 .44444444 12.333333 11.111111)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
     <linearGradient id="g" x1="28" x2="16" y1="17" y2="5" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#232629" offset="0"/>
-        <stop stop-color="#31363b" offset="1"/>
+        <stop stop-color="#eff0f1" offset="0"/>
+        <stop stop-color="#eff0f1" offset="1"/>
     </linearGradient>
     <path d="m4 15 12-12 12 12v15h-24z" fill="url(#b)"/>
     <path transform="scale(1 -1)" d="m27-29h1v14.000001h-1z" opacity=".2"/>
@@ -29,6 +29,6 @@
     <path d="m12.999999 20h6.000002v10.000001h-6.000002z" fill="url(#d)"/>
     <path d="m4 29h23.999998v1h-23.999998z" opacity=".3"/>
     <path d="m16 4.359375-12 11.640625v1l12 12 12 1v-13.546875z" fill="url(#c)" opacity=".2"/>
-    <path d="m20 5v2l4 4v-6z" fill="#232629"/>
+    <path d="m20 5v2l4 4v-6z" fill="#eff0f1"/>
     <path d="m16 1.5859375-14.007812 14.007812 1.4140625 1.414062 12.59375-12.59375 12.59375 12.59375 1.414062-1.414062z" fill="url(#g)"/>
 </svg>

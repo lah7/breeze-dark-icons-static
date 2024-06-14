@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48">
   <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-    color:#232629;
+    color:#eff0f1;
   }</style>
  <g id="weather-none-available-symbolic" class="ColorScheme-Text">
   <rect width="40" height="40" x="4" y="4" ry="20" rx="20" fill="none" stroke-width="2" stroke="currentColor"  />

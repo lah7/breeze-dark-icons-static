@@ -4,8 +4,8 @@
 <svg width="32" version="1.1" xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 32 32" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
  <defs id="defs5455">
   <linearGradient inkscape:collect="always" id="linearGradient4259">
-   <stop style="stop-color:#232629;stop-opacity:0.203922" id="stop4261"/>
-   <stop offset="1" style="stop-color:#232629;stop-opacity:0" id="stop4263"/>
+   <stop style="stop-color:#eff0f1;stop-opacity:0.203922" id="stop4261"/>
+   <stop offset="1" style="stop-color:#eff0f1;stop-opacity:0" id="stop4263"/>
   </linearGradient>
   <linearGradient inkscape:collect="always" xlink:href="#linearGradient4152-0" id="linearGradient4283" y1="541.03632" y2="538.60559" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0.000008 -0.007763)"/>
   <linearGradient inkscape:collect="always" id="linearGradient4152-0">

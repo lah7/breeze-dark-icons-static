@@ -53,7 +53,7 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#232629;
+        color:#eff0f1;
       }
       .ColorScheme-NegativeText {
         color:#da4453;
@@ -63,7 +63,7 @@
        id="current-color-scheme-6"
        type="text/css">
       .ColorScheme-Text {
-        color:#232629;
+        color:#eff0f1;
       }
       </style>
   </defs>

@@ -34,7 +34,7 @@
   <style
      type="text/css"
      id="current-color-scheme">.ColorScheme-Text {
-        color:#31363b;
+        color:#eff0f1;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -43,7 +43,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#31363b;
+        color:#eff0f1;
       }
   </style>
   <g

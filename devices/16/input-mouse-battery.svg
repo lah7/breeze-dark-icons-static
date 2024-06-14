@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="16" height="16">
     <style type="text/css" id="current-color-scheme">.ColorScheme-Text {
-        color:#31363b;
+        color:#eff0f1;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -10,7 +10,7 @@
         color:#3daee9;
       }
       .ColorScheme-ButtonText {
-        color:#31363b;
+        color:#eff0f1;
       }
     </style>
     <g id="16-16-input-mouse-battery" transform="translate(-303,-265.36218) translate(0,-272)">
