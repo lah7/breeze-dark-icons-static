@@ -53,7 +53,7 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#232629;
+        color:#eff0f1;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
@@ -62,8 +62,7 @@
   </defs>
   <path
      sodipodi:type="star"
-     style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     class="ColorScheme-Text"
+     style="opacity:1;fill:#eff0f1;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="path4136"
      sodipodi:sides="4"
      sodipodi:cx="11"
