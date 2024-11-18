@@ -88,14 +88,24 @@ for folder in FOLDERS:
                     line = line.replace("currentColor", COLOUR_MAPPING["ColorScheme-Text"])
 
                 # Some files have a class attribute, but no fill style. Add it in, I guess?
-                # FIXME: Not working?
                 if "class=" in line:
                     class_name = line.split("class=\"")[1].split("\"")[0].strip()
+                    colour = COLOUR_MAPPING["ColorScheme-Text"]
                     if "style=" in line:
-                        line = line.replace("style=\"", f"style=\"fill:{COLOUR_MAPPING[class_name]};")
+                        line = line.replace("style=\"", f"style=\"fill:{colour};color:{colour}")
                         line = line.replace(f"class=\"{class_name}\"", "")
                     else:
-                        line = line.replace(f"class=\"{class_name}\"", f"fill=\"{COLOUR_MAPPING[class_name]}\"")
+                        line = line.replace(f"class=\"{class_name}\"", f"fill=\"{colour}\" color=\"{colour}\"")
+
+                # Weather applets use "color" in the group or "stroke" instead
+                # if "applets/48/weather-" in path:
+                #     colour = COLOUR_MAPPING["ColorScheme-Text"]
+
+                #     if "<g" in line and "fill=" in line:
+                #         line = line.replace("fill=", f"color=\"{colour}\" fill=")
+
+                #     if "<g" in line and "class=" in line:
+                #         line = line.replace("class=", f"fill=\"{colour}\" class=")
 
             new_lines.append(line)
 
@@ -122,3 +132,7 @@ os.system("git checkout places/{16,22,24,32,48,64}/folder-black.svg")
 
 # Prefer older list remove icon
 os.system("git checkout actions/{16,22}/list-remove.svg actions/{16,22}/list-remove-symbolic.svg")
+
+# Symbolic weather icons broken; use non-symbolic versions
+for file in glob.glob("applets/48/weather-*-symbolic.svg"):
+    os.remove(file)

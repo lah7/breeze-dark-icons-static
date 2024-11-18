@@ -15,6 +15,7 @@ Plus, some of my personal preferences applied — _design tastes are subjective!
 * Revert to the older, brighter `folder-black` icon.
 * Revert to the older dialog icons.
 * Revert to the older `list-remove` icon.
+* Use non-symbolic weather applet icons _(due to a bug in this script)_
 
 This exists because of bugs affecting icons under **Breeze Dark.**
 Problems started around 5.87 when the recolouring accent colours were introduced,
