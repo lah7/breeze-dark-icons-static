@@ -58,11 +58,6 @@ for folder in FOLDERS:
         if os.path.islink(path):
             continue
 
-        # Skip empty file (upstream bug?)
-        if os.path.getsize(path) == 0:
-            os.remove(path)
-            continue
-
         with open(path, "r", encoding="utf-8") as f:
             svg = f.read()
 
