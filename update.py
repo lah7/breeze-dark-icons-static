@@ -133,6 +133,9 @@ os.system("git checkout places/{16,22,24,32,48,64}/folder-black.svg")
 # Prefer older list remove icon
 os.system("git checkout actions/{16,22}/list-remove.svg actions/{16,22}/list-remove-symbolic.svg")
 
+# Prefer older x-trash icon
+os.system("git checkout mimetypes/{16,22,32,64}/application-x-trash.svg")
+
 # Symbolic weather icons broken; use non-symbolic versions
 for file in glob.glob("applets/48/weather-*-symbolic.svg"):
     os.remove(file)
