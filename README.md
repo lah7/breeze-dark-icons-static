@@ -7,7 +7,6 @@ which fixes some issues:
    * _White inlays looks odd compared to the original dark inlays. Is it just me?_
    * _This happens because the inlay use the 'text colour', which is white for Breeze Dark._
    * _White inlays are harder to read. It's actually because it's not a compliant foreground/background colour for accessibility._
-* [BUG 482648](https://bugs.kde.org/show_bug.cgi?id=482648) - fix symbolic icons not showing where expected, such as sidebars and toolbars.
 
 Plus, some of my personal preferences applied — _design tastes are subjective!_
 
