@@ -136,6 +136,10 @@ os.system("git checkout actions/{16,22}/list-remove.svg actions/{16,22}/list-rem
 # Prefer older x-trash icon
 os.system("git checkout mimetypes/{16,22,32,64}/application-x-trash.svg")
 
+# Overlay icons larger in Dolphin 24.12.0? (BUG: 497372)
+# https://bugs.kde.org/show_bug.cgi?id=497372
+os.system("git checkout emblems/22/{emblem-symbolic-link,emblem-readonly}.svg")
+
 # Symbolic weather icons broken; use non-symbolic versions
 for file in glob.glob("applets/48/weather-*-symbolic.svg"):
     os.remove(file)
