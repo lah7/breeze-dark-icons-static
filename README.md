@@ -1,7 +1,7 @@
-# Breeze Dark Icons — Static Edition
+# Breeze Dark Icons — Static Remix
 
 This repository puts together a "static" version of the **Breeze Dark** theme
-which fixes some issues:
+which fixes this problem:
 
 * [BUG 448169](https://bugs.kde.org/show_bug.cgi?id=448169) - fix the inlay icon in places being white.
    * _White inlays looks odd compared to the original dark inlays. Is it just me?_
@@ -17,13 +17,13 @@ Plus, some of my personal preferences applied — _design tastes are subjective!
 * Revert to the older `application-x-trash` icon.
 * Use non-symbolic weather applet icons _(due to a bug in this script)_
 
-This exists because of bugs affecting icons under **Breeze Dark.**
+This repository exists because of bugs affecting icons under **Breeze Dark.**
 Problems started around 5.87 when the recolouring accent colours were introduced,
-and more recently (6.x) with changes to symbolic icons.
+and more recently (6.x) there were issues affecting symbolic icons.
 
-This repository fixes the icon (subjectively) for now, by taking a copy of the icons
-and making them _static_ in a way that prevents them from being modified by KDE's
-icon colouring logic. This theme could be useful for non-KDE environments too.
+This repository is mostly a fork, which takes a copy of the icons from upstream
+and makes them _static_ in a way that prevents them from being modified by KDE's
+icon colouring logic. This could be useful for non-KDE environments.
 
 
 ## Usage
