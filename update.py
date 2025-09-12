@@ -48,6 +48,8 @@ for folder in FOLDERS:
     print("Processing:", folder.ljust(70))
 
     # Update with system icons
+    if os.path.exists(folder):
+        shutil.rmtree(folder)
     os.system(f"cp -r '{SYSTEM_ICONS}/{folder}' ./")
 
     # Gather file list
