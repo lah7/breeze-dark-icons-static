@@ -86,7 +86,7 @@ for folder in FOLDERS:
                             line = line.replace(colour, COLOUR_FOLDER_FIX)
 
                 # Not an inline class? Likely defined in the <g> tag
-                if "fill:currentColor" in line and not "class=" in line:
+                if "currentColor" in line and not "class=" in line:
                     line = line.replace("currentColor", COLOUR_MAPPING["ColorScheme-Text"])
 
                 # Some files have a class attribute, but no fill style. Add it in, I guess?
@@ -137,9 +137,6 @@ os.system("git checkout actions/{16,22}/list-remove.svg actions/{16,22}/list-rem
 
 # Prefer older x-trash icon
 os.system("git checkout mimetypes/{16,22,32,64}/application-x-trash.svg")
-
-# BUG: Script needs fixing: Don't use "fillcolor" in window-close.svg (c47dc6e8db68)
-os.system("git checkout actions/{16,22,24,32}/window-close.svg")
 
 # Symbolic weather icons broken; use non-symbolic versions
 for file in glob.glob("applets/48/weather-*-symbolic.svg"):
