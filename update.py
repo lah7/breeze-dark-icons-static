@@ -141,3 +141,8 @@ os.system("git checkout mimetypes/{16,22,32,64}/application-x-trash.svg")
 # Symbolic weather icons broken; use non-symbolic versions
 for file in glob.glob("applets/48/weather-*-symbolic.svg"):
     os.remove(file)
+
+# Copy any custom-defined overrides (e.g. app icons)
+for file in glob.glob("overrides/**", recursive=True):
+    if os.path.isfile(file):
+        shutil.copy(file, file.replace("overrides/", ""))
