@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="24" height="24" id="svg3869" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="application-x-apple-diskimage.svg" viewBox="0 0 24 24">
 <defs id="defs3871">
@@ -24,8 +25,8 @@
 </RDF>
 </metadata>
 <g transform="translate(1,1)">
-<svg:g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="translate(-326,-534.3622)">
-<svg:path id="path4150" class="ColorScheme-Text" d="m 337,537.3622 c -4.432,0 -8,3.568 -8,8 0,4.432 3.568,8 8,8 4.432,0 8,-3.568 8,-8 0,-4.432 -3.568,-8 -8,-8 z m 0,1 c 3.878,0 7,3.122 7,7 0,3.878 -3.122,7 -7,7 -3.878,0 -7,-3.122 -7,-7 0,-3.878 3.122,-7 7,-7 z m 0,1 c -3.324,0 -6,2.676 -6,6 l 3,0 c 0,-1.662 1.338,-3 3,-3 l 0,-3 z m 0,4 c -1.108,0 -2,0.892 -2,2 0,1.108 0.892,2 2,2 1.108,0 2,-0.892 2,-2 0,-1.108 -0.892,-2 -2,-2 z m 0,1 c 0.554,0 1,0.446 1,1 0,0.554 -0.446,1 -1,1 -0.554,0 -1,-0.446 -1,-1 0,-0.554 0.446,-1 1,-1 z m 3,1 c 0,1.662 -1.338,3 -3,3 l 0,3 c 3.324,0 6,-2.676 6,-6 l -3,0 z" style="color:#4d4d4d;fill:#898b8d;fill-opacity:1;stroke:none" inkscape:connector-curvature="0"/>
-</svg:g>
+<g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="translate(-326,-534.3622)">
+<path id="path4150" class="ColorScheme-Text" d="m 337,537.3622 c -4.432,0 -8,3.568 -8,8 0,4.432 3.568,8 8,8 4.432,0 8,-3.568 8,-8 0,-4.432 -3.568,-8 -8,-8 z m 0,1 c 3.878,0 7,3.122 7,7 0,3.878 -3.122,7 -7,7 -3.878,0 -7,-3.122 -7,-7 0,-3.878 3.122,-7 7,-7 z m 0,1 c -3.324,0 -6,2.676 -6,6 l 3,0 c 0,-1.662 1.338,-3 3,-3 l 0,-3 z m 0,4 c -1.108,0 -2,0.892 -2,2 0,1.108 0.892,2 2,2 1.108,0 2,-0.892 2,-2 0,-1.108 -0.892,-2 -2,-2 z m 0,1 c 0.554,0 1,0.446 1,1 0,0.554 -0.446,1 -1,1 -0.554,0 -1,-0.446 -1,-1 0,-0.554 0.446,-1 1,-1 z m 3,1 c 0,1.662 -1.338,3 -3,3 l 0,3 c 3.324,0 6,-2.676 6,-6 l -3,0 z" style="color:#4d4d4d;fill:#898b8d;fill-opacity:1;stroke:none" inkscape:connector-curvature="0"/>
+</g>
 </g>
 </svg>
