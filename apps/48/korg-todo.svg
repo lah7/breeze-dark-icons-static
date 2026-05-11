@@ -32,8 +32,6 @@
 <stop id="stop12-0" stop-color="#f67400"/>
 <stop id="stop14-6" stop-color="#fdbc4b" offset="1"/>
 </linearGradient>
-
-
 </defs>
 <path style="fill:url(#b);stroke-width:2;stroke-linejoin:bevel" d="M 13,44 44,44 44,4 13,4 Z" id="path30"/>
 <path style="fill:url(#linearGradient4618);stroke-width:2;stroke-linejoin:bevel;fill-opacity:1.0" d="M 6,44 6,4 14,4 14,44 Z" id="path32"/>
